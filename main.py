@@ -14,7 +14,7 @@ def startdownload ():
         video.download()
         finishLabel.configure(text="Downloaded Successfully!", text_color="Green")
     except:
-    finishLabel.configure(text="Download failed", text_color ="Red")
+        finishLabel.configure(text="Download failed", text_color ="Red")
     
         
     
